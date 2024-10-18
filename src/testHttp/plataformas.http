@@ -1,0 +1,15 @@
+@url = https://8080-eulaahsanto-aulagamessw-m618wkayiah.ws-us116.gitpod.io
+
+GET {{url}}/plataformas
+ 
+###
+POST {{url}}/plataformas
+Content-Type: application/json
+ 
+{
+    "nome": "Mobile"
+}
+ 
+
+###
+GET {{url}}/plataformas/8
