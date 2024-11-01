@@ -1,0 +1,16 @@
+@url = https://8080-eulaahsanto-aulagamessw-k1mwtkoqyjv.ws-us116.gitpod.io
+
+ 
+GET {{url}}/jogos
+ 
+###
+POST {{url}}/jogos
+Content-Type: application/json
+ 
+{
+    "titulo": "Vampire Survivors",
+    "plataformas": [
+        {"id": 1},
+        {"id":2}
+    ]
+}
